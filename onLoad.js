@@ -33,31 +33,10 @@
 
     function reloadUM(){
       
-        var field = "@Material_Description";
-        var searchValue = $('#MaterialDD').val();
-        console.log(searchValue);
-        $.ajax({
-          url: "/reports/348858dd-95a0-4c82-9de9-10914be2d372",
-          type: "POST",
-          dataType: "json",
-          data: {
-              "start": 0,
-              "filters": [{ "field": field, "data": { "comparison": "eq", "type": "integer", "value": searchValue } }],
-              "persist": true     },
-          success: function (data) {
-            var rowcount = 0;
-              _.each(data.Items, function (item) {
-                if(rowcount > 0){
-                  console.log(item[7]);
-                  $('#Q4254_units').val(item[7]);
-                }
-                rowcount++;
-              });
-                  },
-              error: function () {
-                      alert("Error loading data!");
-                  }
-       });  //.ajax
+      $( "#umSection" ).empty();
+      if(!$('#MaterialDD').val() == ""){
+      	dropDownContent("UM*&nbsp", "f902ac21-78a7-418c-ad41-31aec8f2d3cc", "umSection", "Q4254_units",   $('#MaterialDD').val(), "@Material", 2,"",50,2, 1,"required", "UM");
+      }
         
     }
     
