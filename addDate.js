@@ -10,6 +10,7 @@
         if(day < 10) 
             day = "0" + day;
         var today = now.getFullYear() + '-' + month + '-' + day;
+        console.log(today);
         //Add id_names
         $('#datefield-4155-inputEl').val(today);
         $('#datefield-4155-inputEl-2').val(today);
