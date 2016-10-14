@@ -192,7 +192,7 @@
 			document.getElementById('EquipmentCategory').style.visibility = "collapse"
 			document.getElementById('MainEquipment').style.display = "";
 			document.getElementById('Equipment').style.visibility = "visible"
-			document.getElementById('Equipment').style.display = ""			
+			document.getElementById('Equipment').style.display = "block"			
 			$("span#delivery").html("Pickup Location");
 			if(document.getElementById("Q4189_1").checked){
 				console.log("Project");
