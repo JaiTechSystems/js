@@ -15,4 +15,5 @@
         //Add id_names
         $('#datefield-4155-inputEl').val(today);
         $('#datefield-4155-inputEl-2').val(today);
+        $('input[type="date"]').val(today);
     });
