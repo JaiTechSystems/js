@@ -40,8 +40,8 @@
     }
 	*/
     function updateWidth(h){
-      document.getElementsByTagName('body')[0].style.height=h+"px";
-      document.getElementsByTagName('body')[0].style.minHeight=h+"px";
+      document.getElementsByTagName('body')[0].style.width=h+"px";
+      document.getElementsByTagName('body')[0].style.minWidth=h+"px";
       document.getElementsByTagName('body')[0].style.overflow="scroll";
      
       
