@@ -42,8 +42,8 @@
     function updateHeight(h){
       document.getElementsByTagName('body')[0].style.height=h+"px";
       document.getElementsByTagName('body')[0].style.minHeight=h+"px";
-	document.getElementsByTagName('body')[0].style.position = "absolute";   
-	document.getElementsByTagName('body')[0].style.top = "0px";   
+	//document.getElementsByTagName('body')[0].style.position = "absolute";   
+	//document.getElementsByTagName('body')[0].style.top = "0px";   
       
       document.getElementsByClassName('container')[0].style.height=h+"px";
       document.getElementsByClassName('container')[0].style.minHeight=h+"px";
