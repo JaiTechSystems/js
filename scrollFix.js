@@ -75,7 +75,7 @@
     
     
     scrollFix();
-    var sfix = setTimeout(scrollFix,1000);
+    var sfix = setInterval(scrollFix,1000);
 
 	//Special Request fix
 	document.getElementById("Q4256").onkeydown = function() {scrollFix()};
