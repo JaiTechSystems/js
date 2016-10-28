@@ -48,9 +48,9 @@
       document.getElementsByTagName('table')[0].style.overflow="scroll";
 	    
       
-      document.getElementsByClassName('container2')[0].style.width=h+"px";
-      document.getElementsByClassName('container2')[0].style.minWidth=h+"px";
-      document.getElementsByClassName('container2')[0].style.overflow="scroll";
+      document.getElementsByClassName('containermain')[0].style.width=h+"px";
+      document.getElementsByClassName('containermain')[0].style.minWidth=h+"px";
+      document.getElementsByClassName('containermain')[0].style.overflow="scroll";
      
       
       document.getElementsByTagName('table')[0].style.margin="0px";
