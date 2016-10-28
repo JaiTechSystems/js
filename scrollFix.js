@@ -42,6 +42,8 @@
     function updateHeight(h){
       document.getElementsByTagName('body')[0].style.height=h+"px";
       document.getElementsByTagName('body')[0].style.minHeight=h+"px";
+	document.getElementsByTagName('body')[0].style.position = "absolute";   
+	document.getElementsByTagName('body')[0].style.top = "0px";   
       
       document.getElementsByClassName('container')[0].style.height=h+"px";
       document.getElementsByClassName('container')[0].style.minHeight=h+"px";
@@ -74,3 +76,7 @@
     
     scrollFix();
     var sfix = setInterval(scrollFix,1000);
+
+	//Special Request fix
+	document.getElementById("Q4256").onkeydown = function() {scrollFix()};
+	
