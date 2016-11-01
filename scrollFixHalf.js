@@ -63,7 +63,7 @@
 
       //Fix the scroll bug
       if (isPortrait()){
-        updateHeight(250);
+        updateHeight(50);
       } else {
         updateHeight(50); 
       }
