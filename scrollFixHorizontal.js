@@ -40,17 +40,17 @@
     }
 	*/
     function updateWidth(h){
-      document.getElementsByTagName('body')[0].style.width=h+"px";
-      document.getElementsByTagName('body')[0].style.minWidth=h+"px";
+      //document.getElementsByTagName('body')[0].style.width=h+"px";
+      //document.getElementsByTagName('body')[0].style.minWidth=h+"px";
 	    
       document.getElementsByTagName('table')[0].style.width=h+"px";
       document.getElementsByTagName('table')[0].style.minWidth=h+"px";
       document.getElementsByTagName('table')[0].style.overflow="scroll";
 	    
       
-      document.getElementsByClassName('containermain')[0].style.width=h+"px";
-      document.getElementsByClassName('containermain')[0].style.minWidth=h+"px";
-      document.getElementsByClassName('containermain')[0].style.overflow="scroll";
+      document.getElementsByClassName('container')[0].style.width=h+"px";
+      document.getElementsByClassName('container')[0].style.minWidth=h+"px";
+      document.getElementsByClassName('container')[0].style.overflow="scroll";
      
       
       document.getElementsByTagName('table')[0].style.margin="0px";
