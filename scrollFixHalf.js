@@ -42,6 +42,9 @@
     function updateHeight(h){
       //document.getElementsByTagName('body')[0].style.height=h+"px";
       //document.getElementsByTagName('body')[0].style.minHeight=h+"px";
+      document.getElementsByTagName('table')[0].style.hidth=h+"px";
+      document.getElementsByTagName('table')[0].style.minHidth=h+"px";
+      document.getElementsByTagName('table')[0].style.overflow="scroll";
       
       document.getElementsByClassName('container')[0].style.height=h+"px";
       document.getElementsByClassName('container')[0].style.minHeight=h+"px";
