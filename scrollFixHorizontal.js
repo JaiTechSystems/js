@@ -68,7 +68,7 @@
       if (isPortrait()){
         updateWidth(350);
       } else {
-        updateWidth(790); 
+        updateWidth(680); 
       }
       
     }
