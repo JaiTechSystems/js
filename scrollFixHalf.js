@@ -68,7 +68,7 @@
       if (isPortrait()){
         updateHeight(404);
       } else {
-        updateHeight(212); 
+        updateHeight(242); 
       }
       
     }
